@@ -21,7 +21,7 @@ Save files from PC are compatible, but not the save settings.vs or settings.vslo
 
 - Changed masive object instantiation and destruction on late game places to divite it across frames or cap it directly.
 
-- Reduced sound and music file sizes (resampling all WAVS to 31000, reencoding all OGGS, encoding the biggers WAV to OGG). If you want to try to reduce even more the files
+- Reduced sound and music file sizes (resampling all WAVS to 31000, reencoding all OGGS, encoding the biggers WAV to OGG). If you want to try to reduce even more the files is recomended to add the resampled/edited audio files to a blank GM project, adjusting parameters to the new ones and build it to correct headers so the runner can interpret them correctly at runtime.
 
 - Restored "REST SHUTDOWN" behaviour thas was not included in regular release (as an option in menu Settings->Controls->Misc) so restarting the game is not needed at some points. Game takes some time to launch, so... dream without resting.
 
