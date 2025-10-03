@@ -5,13 +5,15 @@ Patch for Void Stranger 1.1.3 (Steam or Itch)
 
 The requeriment are mostly the same than running YoyoLoader, but data foder is ux0:/data/voidstranger/
 
-After patching rename the file "data.win" to "game.droid". With 7zip put all the game assets inside te assets folder in the apk and rename the apk to game.apk. Delete everything. Place apk and yyl.cfg in data folder. Is posible to tweak loader options with the cfg, but with the example plays nice.
+After patching rename the file "data.win" to "game.droid". With 7zip put all the game assets inside te assets folder in the apk and rename the apk to game.apk. Delete everything but keep lib and assets folders and its content. Place apk and yyl.cfg in Vita data folder. Is posible to tweak loader options with the cfg, but with the example plays nice.
 
 You can use YoyoLoader to optimize the apk, but asset externalization will not work. 
 
 First launch will take... some time. After that the time load time is around ~1min.
 
-Save files from PC are compatible, but not the save settings.vs or settings.vslocal
+Save files from PC are compatible, but not the save settings.vs or settings.vslocal.
+
+Currently is posible to run the patched game with YoYoLoader but, as said, issues with save files will happen.
 
 
 ## Patch changes
