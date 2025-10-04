@@ -13,7 +13,9 @@ First launch will take... some time. After that the time load time is around ~1m
 
 Save files from PC are compatible, but not the save settings.vs or settings.vslocal.
 
-Currently is posible to run the patched game with YoYoLoader but, as said, issues with save files will happen.
+Game runs at 55/60fps most of the time. Eventual spike drops to 30/40 because effects. Managed to keep it above 20/25fps at the most (few) demanding points. Full game is payable (I think... not FULLY tested)
+
+Currently is posible to run the patched game with YoYoLoader but, as said, issues with save files will happen. The provided app here is recommended.
 
 
 ## Patch changes
@@ -35,6 +37,15 @@ Currently is posible to run the patched game with YoYoLoader but, as said, issue
 
 - Gamepad sprite buttons forced to show the SONY ones. Also edited the "OPTIONS" sprite to be more like a Vita "START" button.
 
+- Removed the drag_window code
+
+- Originally the palette was set every one or two frames, I think because of live updating it when looping the palettes in the menu, so limited it to autoupdate only when menu is open.
+
+
+<img width="960" height="544" alt="Image" src="https://github.com/user-attachments/assets/3b348bc8-c974-4ccd-bef3-1f48f8b98025" />
+
+<img width="960" height="544" alt="Image" src="https://github.com/user-attachments/assets/2b871c34-7e19-4b1e-97b1-b5fac2dac4f8" />
+
 
 ## TODO:
 - Rework this readme.
@@ -45,6 +56,8 @@ Currently is posible to run the patched game with YoYoLoader but, as said, issue
 - Clean code and mixed optimization aproaches. Making small changes, patching, launching on Vita and testing can be tedious
 - Externalize part of the music as stream.
 - ¿Porting Endless Void mod?
+
+
 
 Credits to EzDzzIt for the csv to GM string idea.
 To Rinnegatamante for YoyoLoader, I only striped code and added a few thing.
