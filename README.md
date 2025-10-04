@@ -25,7 +25,7 @@ Currently is posible to run the patched game with YoYoLoader but, as said, issue
 
 - Changed masive object instantiation and destruction on late game places to divite it across frames or cap it directly.
 
-- Reduced sound and music file sizes (resampling all WAVS to 31000, reencoding all OGGS, encoding the biggers WAV to OGG). If you want to try to reduce even more the files is recomended to add the resampled/edited audio files to a blank GM project, adjusting parameters to the new ones and build it to correct headers so the runner can interpret them correctly at runtime.
+- Reduced sound and music file sizes (resampling all WAVS to 31000, reencoding all OGGS, encoding the biggers WAV to OGG).
 
 - Restored "REST SHUTDOWN" behaviour thas was not included in regular release (as an option in menu Settings->Controls->Misc) so restarting the game is not needed at some points. Game takes some time to launch, so... dream without resting.
 
@@ -56,6 +56,10 @@ Currently is posible to run the patched game with YoYoLoader but, as said, issue
 - Clean code and mixed optimization aproaches. Making small changes, patching, launching on Vita and testing can be tedious
 - Externalize part of the music as stream.
 - ¿Porting Endless Void mod?
+- Share used UTMT scripts and GML code (only my added and edited part).
+- Fulfill GameSpecificData for Underanalyzer.
+- Save the world.
+- Keep diggin.
 
 
 
