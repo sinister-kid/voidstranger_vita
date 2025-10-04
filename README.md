@@ -15,7 +15,7 @@ Save files from PC are compatible, but not the save settings.vs or settings.vslo
 
 Game runs at 55/60fps most of the time. Eventual spike drops to 30/40 because effects. Managed to keep it above 20/25fps at the most (few) demanding points. Full game is payable (I think... not FULLY tested)
 
-Currently is posible to run the patched game with YoYoLoader but, as said, issues with save files will happen. The provided app here is recommended.
+UPDATED: Currently is posible to run the patched game with YoYoLoader, last update resolves the issue with save file corruption. So you can use the provided standalone app here or the regular YoYoLoder.
 
 
 ## Patch changes
