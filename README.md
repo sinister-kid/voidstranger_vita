@@ -6,6 +6,7 @@ Patch for Void Stranger 1.1.3 (Steam or Itch)
 The requeriment are mostly the same than running YoyoLoader, but data foder is ux0:/data/voidstranger/
 
 After patching rename the file "data.win" to "game.droid". With 7zip put all the game assets inside te assets folder in the apk and rename the apk to game.apk. Delete everything but keep lib and assets folders and its content. Place apk and yyl.cfg in Vita data folder. Is posible to tweak loader options with the cfg, but with the example plays nice.
+You'll probably need to change the .apk extesion to .zip in order to change its content (BlankProject.apk -> game.zip -> modify content -> game.apk)
 
 You can use YoyoLoader to optimize the apk, but asset externalization will not work. 
 
